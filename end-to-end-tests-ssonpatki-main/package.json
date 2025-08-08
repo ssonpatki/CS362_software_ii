@@ -1,0 +1,23 @@
+{
+  "name": "cs362-end-to-end-tests",
+  "version": "1.0.0",
+  "description": "learning e2e testing with vitest and playwright",
+  "license": "ISC",
+  "author": "alex ulbrich",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -c-1 -p 8080 ./calculator -o index.html",
+    "start": "npm run start",
+    "build": "npm run build",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  }
+}
