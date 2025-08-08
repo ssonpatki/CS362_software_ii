@@ -1,0 +1,7 @@
+[
+    {"error":null,"input":"4","result":"IV"},
+    {"error":null,"input":"9","result":"IX"},
+    {"error":null,"input":"99","result":"XCIX"},
+    {"error":null,"input":"999","result":"CMXCIX"},
+    {"error":null,"input":"3999","result":"MMMCMXCIX"}
+]
