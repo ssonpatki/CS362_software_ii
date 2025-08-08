@@ -1,0 +1,16 @@
+{
+  "name": "cs362-unit-tests-assignment",
+  "version": "1.0.0",
+  "description": "learning unit testing with vitest",
+  "license": "ISC",
+  "author": "alex ulbrich",
+  "_comment": "original type declaration was commonjs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.2"
+  }
+}
